@@ -41,14 +41,14 @@ class modScMpRiCe
          );
         array_push($arrFeeds, $itemRSS);
   }  
-        echo "<table bordered='0' dir='rtl' cellpadding='10px'>";
+        echo "<table bordered='0' dir='rtl' cellpadding='10px' class='dol'>";
         echo "<tbody>"; 
         echo "<tr>" . "<td>نوع</td>" . "<td>قیمت ( ریال )</td>" ;  echo "</tr>";
         echo "</tbody>";        
         echo "</table>";    
   foreach($arrFeeds as $money) { 
         if($money['category'] =='USD' or $money['category'] == 'GBP' or $money['category'] == 'AED' or $money['category'] == 'JPY100'  or $money['category'] == 'EUR'){
-        echo "<table bordered='0' dir='rtl' cellpadding='10px'>";
+        echo "<table bordered='0' dir='rtl' cellpadding='10px' class='dol'>";
         echo "<tbody>"; 
         echo "<tr>";
         echo "<td> ";
@@ -87,9 +87,9 @@ $abg = $params->get('tala');
     $html = file_get_contents('http://www.fibazar.ir/v/coin_prices');
 preg_match_all('/<td class.*?>(.*?)<\/td>/si', $html, $n4);
         echo "</br>";
-        echo "<table bordered='0' dir='rtl' cellpadding='10px'>";
+        echo "<table bordered='0' dir='rtl' cellpadding='10px' class='gold'>";
         echo "<tbody>"; 
-        echo "<tr>" . "<td>نوع</td>"  . "<td>قیمت امروز</td>" ."<td>قیمت گذشته</td>" ;  echo "</tr>";
+        echo "<tr class='testos'>" . "<td class='testos'>نوع</td>"  . "<td class='testos'>قیمت امروز</td>" ."<td class='testos'>قیمت گذشته</td>" ;  echo "</tr>";
         echo "</tbody>";        
         echo "</table>";   
         echo "<table bordered='0' dir='rtl' cellpadding='10px'>";

@@ -9,10 +9,11 @@
 // No direct access
 defined('_JEXEC') or die; 
 ?>
-<div class="container-scmprice">
-	<div class="city-title">
-		<?php
-		
-?>
-</div><!-- city-title -->
-</div><!-- container-scmprice -->
+
+<style type="text/css">
+	
+	.dol td {width: 50%; font-family: tahoma;}
+	.gold td {width: 33% !important; font-family: tahoma;}
+	.testos td {width: 33% !important; font-family: tahoma;}
+	td.tdTitle,td.tdValue,td.tdValue.last-day-data {width: 33% !important; font-family: tahoma;}
+</style>
