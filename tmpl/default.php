@@ -12,8 +12,8 @@ defined('_JEXEC') or die;
 
 <style type="text/css">
 	
-	.dol td {width: 50%; font-family: tahoma;}
-	.gold td {width: 33% !important; font-family: tahoma;}
-	.testos td {width: 33% !important; font-family: tahoma;}
-	td.tdTitle,td.tdValue,td.tdValue.last-day-data {width: 33% !important; font-family: tahoma;}
+	.dol td {width: 50%; font-family: tahoma;padding: 0.5rem;border: 1px solid #eaeaea;}
+	.gold td {width: 33% !important; font-family: tahoma;padding: 0.5rem;border: 1px solid #eaeaea;}
+	.testos td {width: 33% !important; font-family: tahoma;padding: 0.5rem;border: 1px solid #eaeaea;}
+	td.tdTitle,td.tdValue,td.tdValue.last-day-data {width: 33% !important; font-family: tahoma;padding: 0.5rem;border: 1px solid #eaeaea;}
 </style>
